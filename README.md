@@ -7,6 +7,7 @@ How to use
 Download the files into the same directory as Python; you must have python to run this code (works with Python 2.7, not tested with other versions). The config.py must be configured to change the path of the location of LTSpice's executable.
 
 python run.py -r
+
 This command runs the program. Each child takes roughly 2-3 seconds to run, and each generation runs 18 children (outside of the first generation).
 
 This code is configured to run on a LTSpice file with parameters VB and VDB, with the circuit being operated on having a lowest voltage of 0V and a highest voltage of 5V.
